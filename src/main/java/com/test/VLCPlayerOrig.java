@@ -116,7 +116,7 @@ public class VLCPlayerOrig {
 
         DirectMediaPlayer mediaPlayer = mediaPlayerFactory.newDirectMediaPlayer(new TestBufferFormatCallback(), new TestRenderCallback());
         mediaPlayer.addMediaPlayerEventListener(new TestMediaPlayerEventAdapter());
-        String media = "D:\\big_buck_bunny_480p_h264.mov";
+        String media = "trailer_480p.mov";
         mediaPlayer.startMedia(media);
 
         try {
